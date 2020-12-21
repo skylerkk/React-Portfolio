@@ -7,6 +7,7 @@ import Weather from './Weather/weather';
 import ToDo from './Todo/Todo';
 import PuzzleSlider from './PuzzleSlider/PuzzleSlider'
 import TicTacToe from './TicTacToe/Game';
+import Calc from './Calculator/Calc';
 import { AppProvider } from './Utilities/AppContext'
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
@@ -76,6 +77,14 @@ function App() {
             <div className="container" style={{ margin: "auto" }}>
               <div className="card-body">
                 <div className="calcapp" ><TicTacToe /></div>
+              </div>
+            </div>
+          </div>
+          <div className="card bg-light col-lg-6 col-md-12">
+            <h1 className="card-title text-center">Calculator</h1>
+            <div className="container" style={{ margin: "auto" }}>
+              <div className="card-body">
+                <div className="calcapp" ><Calc /></div>
               </div>
             </div>
           </div>
