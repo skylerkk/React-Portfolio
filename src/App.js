@@ -24,6 +24,7 @@ function App() {
           <p className='text-center col-12'> Email: Kuretza.skyler@gmail.com</p>
           <p className='text-center col-12'> Phone: (502) 316 - 5117</p>
           <p className='text-center col-12'> LinkedIn: <a href="https://www.linkedin.com/in/skyler-kuretza">https://www.linkedin.com/in/skyler-kuretza</a></p>
+          <p className='text-center col-12'> My Blog: <a href="https://blog-ea661.web.app/">https://blog-ea661.web.app/</a></p>
           <div className="card bg-light col-lg-6 col-md-12">
             <h1 className="card-title text-center">Weather</h1>
             <div className="container" style={{ margin: "auto" }}>
