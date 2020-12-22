@@ -26,7 +26,7 @@ function Weather() {
                 <h4>ZipCode:</h4>
                 <input onChange={e => setZipCode(e.target.value)} value={zipCode} type="number" className="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter ZipCode" />
             </div>
-            <button className='btn btn-secondary' onClick={() => getWeather()}>Submit</button>
+            <button className='btn btn-primary' onClick={() => getWeather()}>Submit</button>
             {Object.keys(datas).length > 0 &&
                 <div>
                     <h1>City</h1>
@@ -34,7 +34,7 @@ function Weather() {
                     <h1>Weather</h1>
                     <p>{datas.data.weather[0].main}</p>
                     <h1>Temperature</h1>
-                    <p>{(((datas.data.main.temp - 273.15) * 9/5 ) + 32).toFixed(2)}</p>
+                    <p>{(((datas.data.main.temp - 273.15) * 9/5 ) + 32).toFixed(2)} Fahrenheit</p>
                 </div>
             }
         </div>

@@ -56,7 +56,7 @@ const Game = () => {
     return(
         <div>
             <Board squares={history[step]} onClick={handleClick} />
-            <div>
+            <div className="text-center mt-2">
                 {winner ? `Winner: ${winner}` : `Next Player: ${isNext ? 'X' : 'O'}`}
             </div>
         </div>

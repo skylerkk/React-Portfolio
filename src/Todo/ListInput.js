@@ -39,7 +39,7 @@ class ListInput extends React.Component {
                     <h3 className='mr-3'>
                         To Do:
                     </h3>
-                    <input className='mr-3' type='text' name='input' placeholder='Enter Task' value={this.state.inputValue} onChange={this.inputChange} />
+                    <input className='mr-3 bg-light' type='text' name='input' placeholder='Enter Task' value={this.state.inputValue} onChange={this.inputChange} />
                     <button className='btn btn-primary' type='submit' onClick={this.submitFunc}> Add to List</button>
                     </div>
                 </form>

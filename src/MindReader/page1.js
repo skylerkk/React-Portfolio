@@ -8,8 +8,8 @@ function Page1() {
     return (
         <div>
             <h1>Pick a number form 01-99</h1>
-            <button className='btn btn-secondary' onClick={()=>setPage(2)}>Next!</button>
-            <button  className='btn btn-secondary' onClick={()=>setPage(0)}>Reset!</button>
+            <button className='btn btn-primary' onClick={()=>setPage(2)}>Next!</button>
+            <button  className='btn btn-primary' onClick={()=>setPage(0)}>Reset!</button>
         </div>
     );
 }

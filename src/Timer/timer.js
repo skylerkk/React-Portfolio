@@ -51,20 +51,20 @@ function Timer() {
                 </div>
                 <div>
                     {(status === 0) ?
-                        <button onClick={start} className='btn btn-secondary'>Start</button>
+                        <button onClick={start} className='btn btn-primary'>Start</button>
                         : ""
                     }
                     {(status === 1) ?
                         <div>
-                            <button onClick={stop} className='btn btn-secondary'>Stop</button>
-                            <button onClick={reset} className='btn btn-secondary'>Reset</button>
+                            <button onClick={stop} className='btn btn-primary'>Stop</button>
+                            <button onClick={reset} className='btn btn-primary'>Reset</button>
                         </div>
                         : ""
                     }
                     {(status === 2) ?
                         <div>
-                            <button onClick={start} className='btn btn-secondary'>Resume</button>
-                            <button onClick={reset} className='btn btn-secondary'>Reset</button>
+                            <button onClick={start} className='btn btn-primary'>Resume</button>
+                            <button onClick={reset} className='btn btn-primary'>Reset</button>
                         </div>
                         : ""
                     }

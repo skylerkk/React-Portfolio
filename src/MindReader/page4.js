@@ -27,10 +27,10 @@ function Page4() {
                 }
                 )}
             </div>
-            <button className='btn btn-secondary' onClick={() => setPage(5)}>Next</button>
+            <button className='btn btn-primary' onClick={() => setPage(5)}>Next</button>
             <p>Find your new number</p>
             <p>Note the symbol beside the number</p>
-            <button className='btn btn-secondary' onClick={() => setPage(0)}>Reset</button>
+            <button className='btn bbtn-primary' onClick={() => setPage(0)}>Reset</button>
         </div>
     );
 }

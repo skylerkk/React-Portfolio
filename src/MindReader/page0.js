@@ -8,7 +8,7 @@ function Page0() {
     return (
         <div>
             <h1>I can read your mind!</h1>
-            <button className='btn btn-secondary'  onClick={() => setPage(1)}>Start!</button>
+            <button className='btn btn-primary'  onClick={() => setPage(1)}>Start!</button>
         </div>
     );
 }

@@ -9,7 +9,7 @@ function Page5() {
         <div>
             <p>Your symbol is:</p>
             <p>{randomSymbol}</p>
-            <button className='btn btn-secondary' onClick={() => setPage(0)}>Reset</button>
+            <button className='btn btn-primary' onClick={() => setPage(0)}>Reset</button>
         </div>
     );
 }
